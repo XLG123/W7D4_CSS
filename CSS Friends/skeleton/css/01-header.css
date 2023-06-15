@@ -1,2 +1,25 @@
 /* PHASE 1: Header */
+body {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  background-color: #EA3323;
+  text-decoration: none;
+  color: white;
+  box-sizing: border-box;
+}
+
+.header a {
+  display: block;
+  padding: 10px 20px;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+}
 
